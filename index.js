@@ -8,7 +8,7 @@ const flavors= ["vanilla", "vanilla", "strawberry", "coffee", "coffee"];
 
 const scoopCount= {};
 
-for(let indextracker = 0; indextracker , flavors.length; indextracker = indextracker = 1){
+for(let indextracker = 0; indextracker < flavors.length; indextracker = indextracker = 1){
   //console.log("current flavors:");
   if(scoopCount[scoop]){
     scoopCount[scoop] = scoopCount[scoop] + 1;
